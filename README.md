@@ -39,6 +39,7 @@ Each entry gives the model name, parameter count, a one-line note, and links to 
 | Model | Params | Notes | Links |
 |-------|--------|-------|-------|
 | Bina 0.4 Rizeh | 71M | Persian page OCR pipeline (layout, line detection, recognition) for printed and handwritten text. CC BY-NC 4.0; detector weights follow Surya's license. | [Hugging Face](https://huggingface.co/Reza2kn/Bina-0.4-Rizeh) |
+| Indra OCR | 1.25M | CPU-only OCR via ONNX Runtime (no PyTorch or GPU). Outputs markdown, text or JSON with boxes and reading order, handles handwriting, 80+ languages and rotated scans. OpenRAIL-M. | [Hugging Face](https://huggingface.co/datalab-to/indra-ocr) |
 
 ## Language Models (LLM)
 
